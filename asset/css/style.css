@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.bg-main-color{
+    background-color: #9DD4FB;
+}
+/* Head Start */
+.head{
+    width: 100%;
+    height: 6.5em;
+    border-bottom: 1px solid white ;
+}
+.nav{
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.waterfall-logo{
+    height: 100%;
+    width: 6.5em;
+    background-color: brown;
+}
+.waterfall-logo img {
+    object-fit: cover;
+}
+.icons{
+    height: 100%;
+    width: 20em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 1.5em;
+}
+.icons i {
+    font-size: 20px;
+}
+.icons p {
+    padding-top: 1em;
+}
+.icons a {
+    padding-top: 1em;
+    padding-bottom: 15px;
+}
+/* Head End */
+
+/* Categories Start */
+.categories{
+    width: 100%;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #9DD4FB;
+}
+.categories a {
+    width: 16em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.categories input:checked + a {
+    background-color: white;
+    color: #9DD4FB;
+}
+/* .categories a:checked {
+    color: #9DD4FB;
+} */
+.categories input {
+    display: none;
+}
+.categories a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+/* Categories End */
+
+/* Products Start */
+.products{
+    height: 230em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.products-div{
+    width: 30em;
+    height: 41.3em;
+    position: relative;
+    margin-top: 30px;
+  }
+.image {
+    object-fit: fill;
+    display: block;
+}
+.btn-products{
+    position: absolute;
+    bottom: 160px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    background-color: #9DD4FB;
+    border: none;
+    visibility: hidden;
+    transition: .5s;
+}
+.products-div:hover .btn-products {
+    height: 4em;
+    visibility: visible;
+}
+.btn-products a {
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 20px;
+}
+.btn-products:hover {
+    background-color: white;
+    border: 2px solid #9DD4FB;
+}
+.btn-products:hover a {
+    color: #9DD4FB;
+}
+.heart{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.h5-products {
+    padding-top: 50px;
+}
+h5 a {
+    text-decoration: none;
+    color: black;
+}
+/* Products End */
+
+.footer{
+    width: 100%;
+    height: 20em;
+    background-color: #9DD4FB;
+}
+.foot-center{
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    position: relative;
+    
+}
+.foot-first{
+    height: 10em;
+    width: 100%;
+    position: absolute;
+    top: 15px;
+    display: flex;
+    gap: 13em;
+    flex-direction: row;
+}
+.foot-first-parts{
+    height: 100%;
+    width: 185px;
+}
+.parts-items{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.margin-top-25{
+    margin-top: 25px;
+}
+.font-size-27{
+    font-size: 25px;
+}
+.parts-items:hover a {
+    text-decoration: underline;
+}
+.decoration{
+    text-decoration: none;
+}
+.p-third-first{
+    color: white;
+    font-size: 16px;
+}
+.color-white{
+    color: white;
+}
+.foot-second{
+    height: 5em;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+.foot-address{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.foot-address-two{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.pos-abs{
+    height: 6.5em;
+    width: 6.5em;
+    position: absolute;
+    bottom: 5em;
+    right: 15em;
+    z-index: 10;
+}
+.pos-abs img {
+    object-fit: cover;
+}
