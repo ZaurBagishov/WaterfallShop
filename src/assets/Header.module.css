@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+.bgMainColor {
+  background-color: #9dd4fb;
+}
+.textWhite {
+  color: white;
+}
+/* Head Start */
+.head {
+  width: 100%;
+  height: 6.5em;
+  border-bottom: 1px solid white;
+}
+.nav {
+  height: 100%;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.waterfallLogo {
+  height: 100%;
+  width: 6.5em;
+}
+.waterfallLogo img {
+  object-fit: cover;
+}
+.icons {
+  height: 100%;
+  width: 25em;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1.5em;
+}
+.fontSize {
+  font-size: 20px;
+}
+.accountText {
+  font-size: 20px;
+}
+
+.icons a {
+  padding-top: 0.4em;
+}
+.decoration {
+  text-decoration: none;
+  color: white;
+}
+.basketCount {
+  color: white;
+  font-size: 13px;
+  position: absolute;
+    top: -5px;
+}
+.favCount {
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  left: 65px;
+  top: 35px;
+}
+.showNav {
+  transform: translateX(0);
+}
+.hideNav {
+  transform: translateX(-200%);
+}
+.navWrapper {
+  width: 30em;
+  height: 100em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateX();
+  transition: all 0.3s;
+}
+.showNavWrapper {
+  transform: translateX(100%);
+}
+@media only screen and (max-width: 690px) {
+  .head {
+    width: 44em;
+    height: 20vh;
+  }
+  .favCount {
+    top: 45px;
+  }
+  .waterfallLogo {
+    padding-top: 1em;
+  }
+}
+
+/* Head End */

@@ -1,0 +1,229 @@
+{
+    "products" : [
+        {
+            "id": 1,
+            "name": "Qızıl Üzlü Çoxqatlı Kəpənək Cins Şalvar Zəncirləri",
+            "price": 100,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://rukminim2.flixcart.com/image/750/900/kdxfc7k0/necklace-chain/e/a/j/ycfjch-btrjeans-gl-chain-yellow-chimes-original-imafupzuup9bqqsr.jpeg?q=20&crop=false",
+            "categoryId": 1
+        },
+        {
+            "id": 2,
+            "name": "İnsan Əhvalına Görə Rəng Dəyişən Boyunbağı",
+            "price": 200,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://www.moodringcolors.com/cdn/shop/products/3_74d349c3-8a2b-4d6f-90f5-9cf13acd96e7.jpg?v=1651739884&width=800",
+            "categoryId": 1
+        },
+        {
+            "id": 3,
+            "name": "Qulaq İsidici Toxuma Bandana",
+            "price": 300,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://i.etsystatic.com/8520234/r/il/bd7fff/6008348585/il_794xN.6008348585_1l66.jpg",
+            "categoryId": 1
+        },
+        {
+            "id": 4,
+            "name": "Əqrəb Üzük",
+            "price": 400,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://m.media-amazon.com/images/I/61B0qXsaCZL._AC_SX679_.jpg",
+            "categoryId": 1
+        },
+        {
+            "id": 5,
+            "name": "Halqavari Saç Klipi",
+            "price": 500,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://img.ltwebstatic.com/images3_pi/2021/07/27/162737909348ac008b3604883294e700a8bebb15c9_thumbnail_720x.webp",
+            "categoryId": 1
+        },
+        {
+            "id": 6,
+            "name": "Məktub Boyunbağı",
+            "price": 600,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://hibeautishop.com/cdn/shop/files/HeartsValleyLoveLetterNecklace1.webp?v=1727995939&width=1100",
+            "categoryId": 1
+        },
+        {
+            "id": 7,
+            "name": "Günəş Boyunbağı",
+            "price": 700,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://ldb-phinf.pstatic.net/20231227_58/1703686980992mgTOw_JPEG/KakaoTalk_20231227_215705553_03.jpg?type=w1500",
+            "categoryId": 1
+        },
+        {
+            "id": 8,
+            "name": " Mirvari Boyunbağı",
+            "price": 800,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://www.trishona.com/cdn/shop/products/9V0A6147.jpg?v=1666256062&width=600",
+            "categoryId": 1
+        },
+        {
+            "id": 9,
+            "name": " Musiqi Notası Boyunbağısı",
+            "price": 900,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://s.alicdn.com/@sc04/kf/H0aa135ac7c164b07bcd3d62bba0988dfg.jpg?avif=close",
+            "categoryId": 1
+        },
+        {
+            "id": 10,
+            "name": " Lapis Lazuli Daşından Boyunbağı",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://m.media-amazon.com/images/I/51fjY6c6wKL._AC_SX679_.jpg",
+            "categoryId": 1
+        },
+        {
+            "id": 11,
+            "name": "Balqabaq Lampa",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://m.media-amazon.com/images/I/611rCU6ODtL._AC_SL1500_.jpg",
+            "categoryId": 2
+        },
+        {
+            "id": 12,
+            "name": "Toparad Smily Face Dibçək",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://m.media-amazon.com/images/I/71GN8l4fXbL._AC_SX679_.jpg",
+            "categoryId": 2
+        },
+        {
+            "id": 13,
+            "name": "Qatlanabilən Oxuma Lampası",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://m.media-amazon.com/images/I/51XilUD-koL._AC_SX522_.jpg",
+            "categoryId": 2
+        },
+        {
+            "id": 14,
+            "name": "Ürək Güldan",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://m.media-amazon.com/images/I/61zz5+Wju0L._AC_SX679_.jpg",
+            "categoryId": 2
+        },
+        {
+            "id": 15,
+            "name": "Mars Model Şəffaf Şüşə Top",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://m.media-amazon.com/images/I/51iN90CZcuS._AC_.jpg",
+            "categoryId": 2
+        },
+        {
+            "id": 16,
+            "name": "Ay Lampası",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://img.fruugo.com/product/8/94/354199948_max.jpg",
+            "categoryId": 2
+        },
+        {
+            "id": 17,
+            "name": "SAJANI 15W Zəngli Saat Bluetooth Dinamik Simsiz Şarj Cihazı LED",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://m.media-amazon.com/images/I/51u2MzxZ+UL._AC_SX679_.jpg",
+            "categoryId": 2
+        },
+        {
+            "id": 18,
+            "name": "Led Saat",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://img4.dhresource.com/webp/m/0x0/f3/albu/jc/l/29/ce67cbdb-bcc5-46d9-a4e2-cfb4f904e8ac.jpg",
+            "categoryId": 2
+        },
+        {
+            "id": 19,
+            "name": "Magnolia tote Eko Çantası",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://images.squarespace-cdn.com/content/v1/575f3711f8508209d8ff7fdf/1478355642707-5MMQZHWIF5YHII7X3RA1/southern_magnolia_canvas_tote_bag_jerryandjulep_nashvilletn.jpg?format=750w",
+            "categoryId": 3
+        },
+        {
+            "id": 20,
+            "name": "Book Club Tote Eco Çanta",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://i.etsystatic.com/38797027/r/il/be2754/4758794224/il_794xN.4758794224_qx61.jpg",
+            "categoryId": 3
+        },
+        {
+            "id": 21,
+            "name": "Get in Loser We're Going to Book Club Eko Çanta",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://i.etsystatic.com/36822884/r/il/968a8a/5475244943/il_794xN.5475244943_6r66.jpg",
+            "categoryId": 3
+        },
+        {
+            "id": 22,
+            "name": "BookWorm Eko Çanta",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://i.etsystatic.com/45218116/r/il/094a84/6129328773/il_794xN.6129328773_t6qw.jpg",
+            "categoryId": 3
+        },
+        {
+            "id": 23,
+            "name": "Lady Death Eko Çanta",
+            "price": 1000,
+            "quantity": 1,
+            "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam natus cupiditate ad dolorem consectetur doloremque recusandae, aspernatur illo maiores atque veniam neque soluta id nemo explicabo, ea unde molestias minima.",
+            "image": "https://i.etsystatic.com/50653951/r/il/44c53d/6051711106/il_794xN.6051711106_cndt.jpg",
+            "categoryId": 3
+        }
+
+    ],
+    "categories" : [
+        {
+            "id": 1,
+            "name": "Aksesuarlar",
+            "path": "/"
+        },
+        {
+            "id": 2,
+            "name": "Hədiyyələr",
+            "path": "/hediyyeler"
+        },
+        {
+            "id": 3,
+            "name": "Eko Çantalar",
+            "path": "/ekocantalar"
+        }
+    ]
+}

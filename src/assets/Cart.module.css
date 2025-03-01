@@ -1,0 +1,220 @@
+body.no-scroll {
+    overflow: hidden;
+  }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent gray */
+    z-index: 9; /* Ensure it appears above everything */
+    transition: opacity 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  .sidebar.open {
+    right: 0;
+  }
+.container {
+    display: flex;
+}
+.sidebar {
+    position: fixed;
+    background-color: white;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    right: 0;
+    transition: width 0.3s ease-in-out;
+    overflow-y: auto;
+
+}
+.center {
+    width: 94.75%;
+    height: 100%;  
+    margin: auto;
+    flex: 1;
+    overflow-y: auto; /* Enables scrolling when items exceed height */
+}
+.head {
+    height: 6em;
+    width: 100%;
+    color: white;
+    background-color: #9dd4fb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15em;
+    position: sticky;
+    top: 0;
+    z-index: 200;
+}
+.cart {
+    height: 12.5em;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+.cartCenter {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.cartImgDiv {
+    height: 100%;
+    width: 7.5em;
+}
+.cartImgDiv img {
+    object-fit: cover;
+}
+.cartItemsDiv {
+    height: 100%;
+    width: 20em;
+    padding-top: 1em;
+    padding-left: 20px;}
+.iconContainer {
+    margin-top: 1em;
+    width: 100%;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    position: relative;
+}
+.icons {
+    width: 2em;
+    height: 2em;
+    background-color: #9dd4fb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.5s;
+
+}
+.icons:hover {
+    color: #9dd4fb;
+    background-color: white;
+    transition: all 0.5s;
+    border: 2px solid #9dd4fb;
+}
+.quantityDiv {
+    width: auto;
+    height: 2em;
+    position: absolute;
+    right: 0;
+}
+.quantityDiv button {
+    width: 2.5em;
+    height: 2em;
+    background-color: #9dd4fb;
+    color: white;
+    transition: all 0.5s;
+    border: none;
+}
+.quantityDiv button:hover {
+    background-color: white;
+    color: #9dd4fb;
+    transition: all 0.5s;
+}
+.quantityDiv input {
+    width: 3em;
+    height: 2em;
+    border-radius: 10px;
+    border: 1px solid #9dd4fb;
+    padding-left: 16px;
+}
+.total {
+    width: 100%;
+    height: 6em;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.total div {
+    width: 100%;
+    height: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.checkout {
+    background-color: white;
+    width: 100%;
+    height: 5em;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+@media only screen and (max-width: 690px) {
+    .overlay {
+        height: 85em;
+    }
+        .sidebar {
+          
+            /* min-height; preferred height; max-height */
+            height: clamp(100vh, 221dvh, 100%);
+            right: 0;
+            top: 0;
+            position: fixed;
+            z-index: 1000;
+        }
+    
+        .head {
+            gap: 5em; /* Reduce spacing in header */
+            font-size: 16px; /* Adjust font size */
+        }
+    
+        .cart {
+            flex-direction: column; /* Stack items vertically */
+            height: auto;
+            padding: 10px;
+        }
+    
+        .cartCenter {
+            flex-direction: column; /* Stack elements */
+            align-items: center;
+        }
+    
+        .cartImgDiv {
+            width: 100%;
+            max-width: 140px; /* Limit image size */
+            height: auto;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .cartItemsDiv {
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+    
+        .iconContainer {
+            justify-content: center;
+        }
+    
+        .checkout {
+            width: 100%;
+            height: 4em;
+            position: sticky;
+            bottom: 0;
+            background-color: white;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+    }

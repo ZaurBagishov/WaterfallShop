@@ -1,0 +1,49 @@
+.categories {
+  width: 100%;
+  height: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #9dd4fb;
+}
+  .label {
+    width: 16em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+  }
+  
+  input[type="radio"] {
+    display: none; /* Hide the radio buttons */
+  }
+  
+  .link {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Apply styles when selected */
+  .active {
+    background-color: white;
+    color: #9dd4fb;
+  }
+  
+  .active .link {
+    color: #9dd4fb;
+  }
+  
+
+  @media only screen and (max-width: 690px) {
+   .categories {
+    width: 44em;
+   }
+  }
