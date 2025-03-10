@@ -122,6 +122,7 @@ body.no-scroll {
 .quantityDiv button:hover {
     background-color: white;
     color: #9dd4fb;
+    border: 1px solid #9dd4fb;
     transition: all 0.5s;
 }
 .quantityDiv input {
