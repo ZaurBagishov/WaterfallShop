@@ -134,7 +134,7 @@ function ProductDetail() {
                   <div className={styles.cartItemsDiv}>
                     <h2>{selectedProduct.name}</h2>
                     <h5 style={{ paddingTop: "10px" }}>
-                      {selectedProduct.price}
+                      {selectedProduct.price} ₼
                     </h5>
                     <p style={{ paddingTop: "10px" }}>
                       {selectedProduct.description}
