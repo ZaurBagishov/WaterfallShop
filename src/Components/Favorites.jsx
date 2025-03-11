@@ -128,7 +128,7 @@ const [loading, setLoading] = useState(false);
                 </div>
                 <div className={style.cartItemsDiv}>
                   <h2>{item.name}</h2>
-                  <h5 style={{ paddingTop: "10px" }}>{item.price}</h5>
+                  <h5 style={{ paddingTop: "10px" }}>{item.price} ₼</h5>
                   <div className={style.iconContainer}>
                     <div className={style.icons} onClick={()=>handleBagClick(item)}>
                       <FaShoppingBag />
