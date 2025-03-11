@@ -166,7 +166,7 @@ const handleBagClick = async (pro) => {
                     </div>
                     <div className={styles.cartItemsDiv}>
                       <span>{item.name}</span>
-                      <h5 style={{ paddingTop: "10px" }}>{item.price}</h5>
+                      <h5 style={{ paddingTop: "10px" }}>{item.price} ₼</h5>
                       <div className={styles.iconContainer}>
                         <div className={styles.icons}>
                           <span onClick={() => handleFavoriteClick(item)} style={{cursor: "pointer", padding: "10px"}}>
