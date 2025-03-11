@@ -128,7 +128,7 @@ function Accessories() {
             </span>
 
             <h5 className={styles.h5Name}>{product.name}</h5>
-            <h5 className={styles.h5Price}>{product.price}</h5>
+            <h5 className={styles.h5Price}>{product.price} ₼</h5>
           </div>
         );
       })}
