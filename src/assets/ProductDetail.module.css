@@ -147,3 +147,15 @@ body.no-scroll {
     right: 0;
   }
   }
+@media screen and (max-width: 500px) {
+  .productDetail.open {
+    width: 25em;
+  }
+
+}
+@media screen and (max-width: 400px) {
+  .productDetail.open {
+    width: 20em;
+  }
+
+}

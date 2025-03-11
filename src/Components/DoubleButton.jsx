@@ -5,6 +5,8 @@ import { toast } from 'react-toastify';
 import { addToCartFirebase } from "../Redux/Slice/CartSlice";
 import { useState } from "react";
 import Loader from "./Loader";
+import { auth } from "../Firebase/Config";
+
 
 
 function DoubleButton(props) {
@@ -25,6 +27,15 @@ function DoubleButton(props) {
   const cartItems = useSelector((state) => state.cart.items);
 
   const handleClick = (pro) => {
+
+    const user = auth.currentUser;
+  
+    if (!user) {
+      toast.error("Zəhmət olmasa daxil olun");
+      return;
+    }
+
+
     const isProductInCart = cartItems.some((item) => item.id === pro.id);
     setLoading(true);
   

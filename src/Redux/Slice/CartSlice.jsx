@@ -36,7 +36,7 @@ export const addToCartFirebase = createAsyncThunk(
   async (product, { rejectWithValue }) => {
     try {
       const userId = getUserId();
-      if (!userId) return rejectWithValue("User not logged in");
+      if (!userId) return rejectWithValue("Zəhmət olmasa daxil olun");
 
       if (!product.id) return rejectWithValue("Invalid product data");
 

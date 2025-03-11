@@ -1,5 +1,6 @@
 .categories {
-  width: 100%;
+  max-width: 100%;
+  width: auto;
   height: 4em;
   display: flex;
   flex-direction: row;

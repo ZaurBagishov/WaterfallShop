@@ -11,9 +11,9 @@
 .textWhite {
   color: white;
 }
-/* Head Start */
 .head {
-  width: 100%;
+  max-width: 100%;
+  width: auto;
   height: 6.5em;
   border-bottom: 1px solid white;
 }
@@ -34,11 +34,13 @@
 }
 .icons {
   height: 100%;
-  width: 25em;
+  width: 18em;
+  margin-right: 10em;
   display: flex;
   align-items: center;
   flex-direction: row;
   gap: 1.5em;
+  /* background-color: chartreuse; */
 }
 .fontSize {
   font-size: 20px;
@@ -46,7 +48,6 @@
 .accountText {
   font-size: 20px;
 }
-
 .icons a {
   padding-top: 0.4em;
 }
@@ -58,7 +59,7 @@
   color: white;
   font-size: 13px;
   position: absolute;
-    top: -5px;
+  top: -5px;
 }
 .favCount {
   color: white;
@@ -67,37 +68,47 @@
   left: 65px;
   top: 35px;
 }
-.showNav {
-  transform: translateX(0);
-}
-.hideNav {
-  transform: translateX(-200%);
-}
-.navWrapper {
-  width: 30em;
-  height: 100em;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0.5);
-  transform: translateX();
-  transition: all 0.3s;
-}
-.showNavWrapper {
-  transform: translateX(100%);
-}
-@media only screen and (max-width: 690px) {
-  .head {
-    width: 44em;
-    height: 20vh;
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
   }
-  .favCount {
-    top: 45px;
+  .icons {
+    width: 100%;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: -1.5em;
+    z-index: 2;
   }
-  .waterfallLogo {
-    padding-top: 1em;
+  .waterfallLogo img {
+    width: 100px;
+    height: 103px;
+    position: absolute;
+    top: -10px;
+  }
+  .accountText {
+    font-size: 16px;
   }
 }
 
-/* Head End */
+@media (max-width: 480px) {
+  .icons {
+    gap: 1em;
+    width: 100%;
+  }
+  .fontSize {
+    font-size: 16px;
+  }
+  .accountText {
+    display: none;
+  }
+}
+@media (max-width: 458px) {
+  .head {
+    width: 140vw;
+  }
+}

@@ -60,7 +60,7 @@ useEffect(() => {
 
     signOut(auth).then(() => {
      toast.success("Çıxış edildi");
-     navigate("/hesab");
+     navigate("/");
       
    }).catch((error) => {
      toast.error(`Xəta baş verdi: ${error.message}`);

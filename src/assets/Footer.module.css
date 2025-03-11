@@ -1,5 +1,6 @@
 .footer{
-    width: 100%;
+    max-width: 100%;
+    width: auto;
     height: 20em;
     background-color: #9DD4FB;
 }
@@ -21,7 +22,7 @@
 }
 .footFirstParts{
     height: 100%;
-    width: 185px;
+    width: 200px;
 }
 .partsItems{
     width: 100%;
@@ -53,7 +54,7 @@
     color: white;
 }
 .footSecond{
-    height: 5em;
+    height: 3em;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -71,7 +72,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    z-index: 20;
 }
 .posAbs{
     height: 6.5em;
@@ -99,10 +100,78 @@
         right: 10em;
     }
     .posAbs img {
-        width: 200px;
+        width: 150px;
         height: 100px;
+        position: absolute;
+        bottom: -5.5em;
+        right: 50%;
     }
+    .footAddress {
+        margin-left: 20px;
+    }
+    .footSecond {
+        bottom: 6em;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .footer {
+        width: 30em;
+    }
+    .footFirst {
+        gap: 3em;
+    }
+    .posAbs {
+        height: 2em;
+        width: 2em;
+        right: 5em;
+    }
+    .posAbs img {
+        width: 150px;
+        height: 75px;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .footer {
+        width: 20em;
+    }
+    .posAbs {
+        height: 1.5em;
+        width: 1.5em;
+    }
+    .posAbs img {
+        width: 100px;
+        height: 50px;
+    }
+    .footAddress {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .footer {
+        width: 15em;
+    }
+    .footFirst {
+        gap: 1em;
+    }
+    .posAbs {
+        height: 1em;
+        width: 1em;
+        right: 2em;
+    }
+    .posAbs img {
+        width: 75px;
+        height: 37.5px;
+    }
+    
+}
+@media screen and (max-width: 639px) {
+    .footFirst {
+        gap: 1em;
+    }    
     .footAddressTwo {
-        margin-left: 50px;
+        text-overflow: ellipsis;
     }
 }

@@ -165,11 +165,11 @@ const handleBagClick = async (pro) => {
                       />
                     </div>
                     <div className={styles.cartItemsDiv}>
-                      <h2>{item.name}</h2>
+                      <span>{item.name}</span>
                       <h5 style={{ paddingTop: "10px" }}>{item.price}</h5>
                       <div className={styles.iconContainer}>
                         <div className={styles.icons}>
-                          <span onClick={() => handleFavoriteClick(item)}>
+                          <span onClick={() => handleFavoriteClick(item)} style={{cursor: "pointer", padding: "10px"}}>
                             {isFav ? <FaHeart /> : <FaRegHeart />}
                           </span>
                         </div>

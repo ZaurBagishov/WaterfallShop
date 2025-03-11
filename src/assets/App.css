@@ -6,6 +6,8 @@
 body {
     background-color: white !important;
     position: relative;
+    max-width: 100%;
+    width: auto;
 }
 button {
     border-radius: 10px;
